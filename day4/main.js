@@ -39,6 +39,13 @@ function validateLine(line)
         {
             if(k != i)
             {
+                // Part 1
+                // if(words[i] == words[k])
+                // {
+                //     valid = false;
+                // }
+
+                // Part 2
                 if(orderWord(words[i]) == orderWord(words[k]))
                 {
                     valid = false;
