@@ -1,10 +1,5 @@
 var input = 325489;
 
-var right = true;
-var up = true;
-
-var curnum = 1;
-
 // Spirals are in every other square, 1 3 5 7, etc
 // Find the odd root above my num
 var root = Math.ceil(Math.sqrt(input));
